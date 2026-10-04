@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="y4B3Y49G1unDU2P4-5J6">
+    <mxGraphModel dx="736" dy="1086" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-2" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="594" width="474" x="244" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;div&gt;Search Engine&lt;/div&gt;&lt;div&gt;BFS / DFS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="113" x="424.5" y="-18" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-7" edge="1" parent="1" source="OwwEuNjhZS19W-Cgz9bp-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="OwwEuNjhZS19W-Cgz9bp-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-13" edge="1" parent="1" source="OwwEuNjhZS19W-Cgz9bp-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="OwwEuNjhZS19W-Cgz9bp-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-5" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Search Controller&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Controls BFS / DFS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="174" x="263" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-9" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563" y="142" as="sourcePoint" />
+            <mxPoint x="563" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-6" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Frontier&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Queue / Stack&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="174" x="519" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-11" edge="1" parent="1" source="OwwEuNjhZS19W-Cgz9bp-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="OwwEuNjhZS19W-Cgz9bp-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-14" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" value="">
+          <mxGeometry relative="1" x="0.0123" as="geometry">
+            <Array as="points">
+              <mxPoint x="638" y="197.8" />
+            </Array>
+            <mxPoint x="638" y="223" as="sourcePoint" />
+            <mxPoint x="638" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;State Expansion&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Generates next states&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="174" x="519" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Goal Test&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checks goal state&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="174" x="519" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="OwwEuNjhZS19W-Cgz9bp-12" parent="1" style="whiteSpace=wrap;html=1;" value="Visited Set&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;Tracks explored states&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="174" x="263" y="406" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
